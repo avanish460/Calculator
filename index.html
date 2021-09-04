@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calci.css">
+  </head>
+  <body>
+    <div class="input-group input-group-lg">
+      <h1 class="input-group-text" id="inputGroup-sizing-lg">Calculator</h1>
+      <input
+        type="text"
+        class="form-control"
+        id="input1"
+        placeholder="Enter first number"
+        aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-lg"
+        />
+
+        <input
+        type="text"
+        class="form-control"
+        id="input2"
+        placeholder="Enter second number"
+        aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-lg"
+        />
+
+        <input
+        type="text"
+        class="form-control"
+        id="input3"
+        placeholder="Enter Operation"
+        aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-lg"
+        />
+       
+        <h3>Result = <span id="result"></span></h3>
+      <button type="button" class="btn btn-primary" id="bttn">Calculate</button>
+    </div>
+    <script src="calculate.js"></script>
+  </body>
+</html>
